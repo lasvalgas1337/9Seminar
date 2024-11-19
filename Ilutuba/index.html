@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marie Ilutuba</title>
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            background-image: url('pildid/taust.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            text-align: left;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+        }
+        .header h1 {
+            font-family: 'Brush Script MT', cursive;
+            margin: 0;
+            font-size: 48px;
+        }
+        .header nav {
+            margin-top: 10px;
+        }
+        .header nav a {
+            font-size: 18px;
+            margin-right: 20px;
+            text-decoration: none;
+            color: inherit; 
+            cursor: pointer; 
+        }
+        .header nav a:hover {
+            text-decoration: none; 
+        }
+        .sots {
+            position: absolute;
+            top: 20px;
+            right: 250px;
+            display: flex;
+            gap: 10px;
+        }
+        .sots img {
+            width: 60px;
+            height: 60px;
+            cursor: pointer;
+            border-radius: 50%;
+        }
+        .kont {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+        .galerii {
+            width: 60%;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.9);
+            text-align: center;
+        }
+        .galerii img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .kaart {
+            width: 60%;
+            height: 570px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.9);
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .kaart iframe {
+            width: 100%;
+            height: 500px;
+            border: 0;
+        }
+        .info {
+            width: 100%;
+            text-align: center;
+            margin-top: -550px;
+            transform: translateX(25%);
+        }
+        .info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Marie Ilutuba</h1>
+    <nav>
+        <a href="hinnakiri.html">Hinnakiri</a>
+        <span>Broneeri aeg</span>
+    </nav>
+</div>
+
+<div class="sots">
+    <a href="https://www.instagram.com" target="_blank"><img src="pildid/ig.jpg" alt="Instagram"></a>
+    <a href="https://www.facebook.com" target="_blank"><img src="pildid/f.jpg" alt="Facebook"></a>
+    <a href="https://www.tumblr.com" target="_blank"><img src="pildid/t.png" alt="Tumblr"></a>
+</div>
+
+<div class="kont">
+    <div class="galerii">
+        <h2>Galerii</h2>
+        <img src="pildid/meiesalong1.jpg" alt="Galerii Pilt1">
+        <img src="pildid/meiesalong2.jpg" alt="Galerii Pilt2">
+    </div>
+    <div class="kaart">
+        <h2>Google Maps kaart</h2>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2591.9850372835676!2d26.698029215492815!3d58.378135981350534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4692991f03a7a9d1%3A0x55b990f02b77f914!2sViljandi%20mnt%2053%2C%20Tartu%2C%20Eesti!5e0!3m2!1set!2see!4v1690500000000!5m2!1set!2see" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </div>
+</div>
+
+<div class="info">
+    <p><strong>Aadress:</strong> Viljandi mnt 53, Tartu</p>
+    <p><strong>Avamis- ja sulgemisajad:</strong> E-R 9:00-18:00</p>
+</div>
+
+</body>
+</html>
